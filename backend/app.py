@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 def get_db_connection():
-    db_dir = 'backend/db'
+    db_dir = 'db'
     db_file = 'appointments.db'
 
     if not os.path.exists(db_dir):
